@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+  
+<html lang="en">
+<head>
+  <title>APS BOMET FAN HUB</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="author" content="Kym Chirchir"/>
+  <link rel="stylesheet" href="./main-style.css"/>
+  <link rel="stylesheet" href="./dashboard.css"/>
+  <script type="text/javascript" src="./main-script.js"></script>
+  <script type="text/javascript" src="./dashboard.js"></script>
+  <script type="text/javascript">
+function fill_() {
+  const pl_table = document.querySelector('.table-standings-div');
+  pl_table.innerHTML = edit();
+}
+   
+function pass(pass_) {
+  if (pass_ == '1611-1116') {
+    const header = document.querySelector('.head');
+    header.style.padding = "10px";
+    header.style.marginTop = "50vh";
+    header.innerText = "This site has not been publicly released - sharing links , images or screenshots has not been licensed by the owners";
+  }    
+}
+  </script>
+  <script >
+ function calc() {
+   const fixDate = document.querySelector('.head');
+   let inner = fixDate.innerText;
+ }
+  </script>
+</head>
+<body>
+  <!--div class="cover"></div-->
+  <!--header class="head">
+    <span>MESSAGE TO ADMIN WHO RECEIVED THIS LINK:</span>
+    <h3>Before getting linked to this website there was a code attached with the email</h3>
+    <input oninput="pass(this.value)" placeholder="000000" type="tel"/><br><br>
+    <span>Message to he/she who mistakenly got linked to this site.</span>
+    <p>This site has not yet been publicly released - in that case you as a player or fan or any visitor, you are not allowed to share links or any images even taking screenshots of this site. <span>WHY SO?</span> It's simply because images or names used in this site have not yet been licensed by the owners.</p>
+  </header-->
+  <div class="top-navs">
+    <nav>
+      <a>Home</a>
+      <a href="./fixture.html">Fixtures</a>
+      <a href="./results.html">Results</a>
+      <a href="./news.html">News</a>
+      <a>Stats</a>
+      <a>Top Scorers</a>
+    </nav>
+  </div>
+  <div class="show-photo">
+    <div class="half-div">
+      <div class="welcome-txt">A.P.S BOMET FOOTBALL CLUB</div>
+      <p class="des-txt">The Black Berets</p>
+      <div class="-btns-">
+        <button class="view-btn" onclick="window.location.href='./fixture.html'">View Upcoming Fixtures</button>
+        <button class="live-btn" onclick="window.location.href='./news.html'">Get Live Results</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="grids">
+    <div class="display-grid">
+      <h2>UPCOMING FIXTURES</h2>
+     <div class="show-fix-bg">
+        <div class="show-fix">
+          <p class="fix-date">Sunday, 21 December 2025 – 2:00 PM</p>
+          <h2 class="fix-match">APS BOMET vs TUSKER FC</h2>
+          <p class="fix-stadium">Kericho Green Stadium </p>
+        </div>
+   </div>
+      </div>
+      <!--div class="div-navs">
+        <div class="div-nav"><h3>LEAGUE FIXTURES</h1><hr><p>FKF PL Upcoming fixtures</p></div>
+        <div class="div-nav"><h3>LEAGUE TABLES</h1><hr><p>FKF tables</p></div>
+        <div class="div-nav"><h3>TOP SCORERS</h1><hr><p>Season Top Scorers</p></div>
+        <div class="div-nav"><h3>LATEST NEWS</h1><hr><p>Don't miss the latest news</p></div>
+      </div-->
+      <hr class="hr-grid">
+    </div>
+    <div class="video-anim">
+      <h1 class="name-anim">APS BOMET FOOTBALL CLUB</h1>
+      <hr class="hr-anim">
+      <p class="p-anim">The Black Berets</p>
+    </div>
+  </div>
+   
+  <div class="bg-banner">
+    <div class="real-banner">
+      <h4>MEET & SUPPORT YOUR FAVOURITE TEAM & PLAYERS</h4>
+      <p>Players, Stats & More</p>
+      <button class="view-btn">EXPLORE</button>
+    </div>
+  </div>
+
+  <section class="top-story">
+    <h3 class="title-top">LATEST RESULTS</h3>
+    <!--div class="news-card">
+      <img alt=" " src="../files/images/banner.jpg"/>
+      <p class="news-title">Victorius win - APS defeats Bandari FC a win of 1 to nil</p>
+      <p>December 12, 2025</p>
+      <!--div><button class="live-btn">READ MORE</button></div-->
+    </div-->
+      <!-- RESULT CARD -->
+  <div class="result-card">
+    <img src="../files/images/banner.jpg" alt="Match image" class="result-image">
+
+    <div class="result-body">
+      <div class="result-score">APS BOMET 1 – 0 BANDARI FC</div>
+      <div class="result-meta">7 December 2025 •</div>
+
+      <div class="result-text">
+        APS BOMET secured a hard-fought 1 – 0 victory against BANDARI FC in an intense
+        Kenyan Premier League clash. 
+      </div>
+
+      <span class="see-more">See more</span>
+    </div>
+  </div>
+
+  </section>
+  <footer>
+    <!--h4>You are welcomed whether you visited this site as a player or as a fan.</h4><br-->
+    <p><strong>Why is the site incomplete ? </strong>This site has not yet been publicly released - do not share any images, screenshots or links.</p>
+    <div class="foot"><br><hr><br>
+      <p><a href=" ">About Service</a></p>
+      <p><a href="">Contact</a></p>
+      <p>&copy;2025 - 2026</p>
+    </div>
+  </footer>
+<script>
+  document.querySelectorAll(".see-more").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const text = btn.previousElementSibling;
+      text.classList.toggle("expanded");
+      btn.textContent = text.classList.contains("expanded")
+        ? "See less"
+        : "See more";
+    });
+  });
+</script>
+</body>
+</html>
