@@ -1,0 +1,124 @@
+
+body {
+  background-color: #ccc;
+}
+.pitch {
+  background: linear-gradient(145deg, green, green);
+  margin: 10px;
+  border: 5px solid white;
+  height: ;
+  scale:;
+}
+
+.player-space {
+  height: ;
+  background: ;
+  border: ;
+  padding: ;
+  margin: 2px;
+}
+.midfield, .defense, .goal, .forward {
+  display: flex;
+  justify-content: center;
+  gap: ;
+}
+.fw-9, .fw-11 {
+  width: ;
+  background: ;
+}
+.gk-1 {
+  width: ;
+}
+.contain-data {
+  border: 10px solid coral;
+  border-radius: 20%;
+  text-align: center;
+  padding: 5px;
+  background-color: #131;
+  scale: 0.8;
+}
+.con-img-rank {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+/****/
+.con-img-rank p {
+  
+  padding: 5px;
+  font-size: 1rem;
+  display: inline-block;
+  width: ;
+  height: ;
+  border-radius: ;
+  border: 3px solid white;
+  background: goldenrod;
+  color: ;
+  font-weight: 1000;
+  font-family: normal;
+  visibility: hidden;
+}
+/****/
+.con-img-rank img {
+  height: 90px;
+  width: 90px;
+  border-radius: 10%;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  object-position: ;
+  border-radius: 3px ;
+}
+.contain-data > p {
+  font-family: normal;
+  font-weight: 450;
+  font-size: 0.9rem;
+  color: aqua;
+  padding: 10px;
+}
+.contain-data > p span:nth-child(1) {
+  color: cornsilk;
+  padding: 5px;
+}
+.contain-data > p span:nth-child(2) {
+  font-weight: 1000;
+  font-size: 2rem;
+}
+.con-shirt-pos p:first-child {
+  color: aliceblue;
+  font-size: 1.rem;
+  font-family: normal;
+  font-weight: 500;
+}
+.con-shirt-pos p:nth-child(2) {
+  font-family: normal;
+  font-weight: 1000;
+  font-size: 1.1rem;
+  color: white;
+  background-color: crimson;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 7px;
+}
+.fw-9 {
+  padding: ;
+}
+.fixed-warn {
+  position: ;
+  padding: 50px 10px;
+  color: orangered;
+  background: #131d24;
+  width: 100%;
+}
+.emidf p:nth-child(2) {
+  background-color: gold;
+  color: black;
+}
+.edef p:nth-child(2) {
+  background-color: lime;
+  color: black;
+}
+.gkf p:nth-child(2) {
+  background: skyblue;
+  color:;
+}
